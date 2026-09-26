@@ -5,12 +5,11 @@ Mexit/MultiOS-USB#77 and adopted to MultiOS-USB as a 'one-click-solution', but i
 
 # Features
 - Filesystems: exfat, ext4
-- Scan for devices & ISO files ('iso-scan')
 - Provide full debian boot menu
 - Supported ISOs: Debian-DVD-1, Debian-netinst & all Debian-live images of Debian 13.6.0 & 13.7.0 release cycles.
 
 # Usage
-Load provided 'iso-scan-13.X.0.gz' along with the main 'initrd.gz' of the installation media via grub loopback module. This adds necessary functionality for installing Debian 13.X via debian 
+Load provided 'scandev-13.X.0.gz' along with the main 'initrd.gz' of the installation media via grub loopback module. This adds necessary functionality for installing Debian 13.X via debian 
 installer. If you are using 'https://github.com/Mexit/MultiOS-USB', it is just a few steps:
 
 0. Use MultiOS-USB partition on 'exfat' or 'ext4' filesystem.
