@@ -17,4 +17,4 @@ installer. If you are using 'https://github.com/Mexit/MultiOS-USB', it is just a
 2. Create a directory for 'grub.cfg' files: '/MultiOS-USB/config_priv/debian-scandev'
 3. Copy 'scandev-13.X.0.gz', 'debian-13.X.0-amd64_d-i.cfg' and 'debian-13.X.0-amd64-d-i_live.cfg' there.
 4. Reboot into 'MultiOS-USB' and start e.g. 'debian-13.X.0-amd64-DVD-1.iso [scandev]' entry.
-5. Debian-installer will start same way as started from a usb-stick.
+5. Debian-installer will start same way as started from usb-stick.
